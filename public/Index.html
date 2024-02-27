@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/be657822c8.js" crossorigin="anonymous"></script>
+</head>
+
+<!-- Navbar section -->
+
+<body>
+
+    <div class="bg-indigo-700 p-4 flex justify-between items-center">
+
+        <!--   left side -->
+        <div class="flex items-center">
+            <img src="images/dog logo.jpg" width="100" alt="Logo" class="mr-2">
+            <a href="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2">Accueil</a>
+            <a href="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100">Projets</a>
+            <a href="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100">Contact</a>
+        </div>
+
+        <!--   right side -->
+        <div class="hidden md:block">
+            <a href="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2">Se Connecter</a>
+            <a href="#"
+                class="inline-block py-2 px-4 text-yellow-700 bg-yellow-400 hover:bg-yellow-300 hover:text-yellow-800 rounded transition ease-in duration-150">Sign
+                Up</a>
+        </div>
+
+    </div>
+
+
+
+    <!-- Hero section -->
+
+    <div class="md:flex justify-between py-20 px-10 bg-indigo-600 text-indigo-100">
+
+        <!--   left -->
+        <div class="md:w-1/2 mb-10 md:mb-0">
+            <h2 class="text-2xl md:text-4xl lg:text-6xl text-white mb-6">Bienvenue à ADBA Dog City!</h2>
+            <p class="mb-6">Centre d'adoption de Chiens domestiques!</p>
+
+            <a href="#"
+                class="inline-block py-3 px-6 text-lg bg-gray-400 text-gray-800 hover:bg-gray-300 rounded mr-2">En
+                savoir plus</a>
+            <a href="#"
+                class="inline-block py-3 px-6 text-lg bg-orange-400 text-orange-800 hover:bg-orange-300 rounded">Lancez
+                vous</a>
+        </div>
+
+        <!--   right -->
+        <div class="md:w-1/2">
+            <img src="https://images.unsplash.com/photo-1536012441472-aae6b3ce330f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+                alt="Adoptez Nos Chiens" class="w-full rounded shadow-2xl">
+        </div>
+    </div>
+
+
+
+
+    <!-- Competences -->
+    <div class="md:flex py-16 px-10 bg-indigo-800 text-indigo-200 tex
+    t-center">
+        <div class="mr-2 text-center">
+            <img src="https://images.unsplash.com/photo-1586179253019-ac8a2522535f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1568&q=80"
+                class="w-full mb-4 rounded border-solid border-2 border-indigo-400">
+            <p>Cuddles!</p>
+        </div>
+
+        <div class="mr-2 mt-8 text-center">
+            <img src="https://images.unsplash.com/photo-1453369569379-52cd4fc989af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
+                class="w-full mb-4 rounded border-solid border-2 border-indigo-400">
+            <p>Joie!</p>
+        </div>
+
+        <div class="mr-2 text-center">
+            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
+                class="w-full mb-4 rounded border-solid border-2 border-indigo-400">
+            <p>Jeux!</p>
+        </div>
+
+        <div class="mr-2 mt-8 text-center">
+            <img src="https://images.unsplash.com/photo-1505623776320-7edecf5f0771?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+                class="w-full mb-4 rounded border-solid border-2 border-indigo-400">
+            <p>Nages!</p>
+        </div>
+    </div>
+
+    <!-- project card -->
+    <section class="  bg-indigo-800">
+
+    <div class="flex items-center justify-center min-h-screen container mx-auto  bg-indigo-800 text-indigo-200">
+        <!-- Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  bg-indigo-800">
+
+            <!-- the card -->
+            <div class="card">
+                <div class="p-5 flex flex-col">
+                    <div class="rounded-xl overflow-hidden">
+                        <img src="images/Accessoires pour chiens.jpg" alt="">
+
+                    </div>
+                    <h5 class="text-2xl md:text-3xl font-medium mt-3">Accessoires pour Chiens Disponibles</h5>
+                    <p class="text-slate-500 text-lg mt-3 ">Nous pouvons vos fournir des toys et accessoires pour vos chiens</p>
+                    <a href="#" class="text-center bg-indigo-700 text-indigo-400 py-2 rounded-lg font-semibold mt-4   hover:bg-blue-700 focus:scale-95 transition-all duration-200 ease-out">En savoir plus</a>
+
+
+                </div>
+
+            </div>
+
+            
+            <!-- the card 2 -->
+            <div class="card">
+                <div class="p-5 flex flex-col">
+                    <div class="rounded-xl overflow-hidden">
+                        <img src="images/CROQ' la Vie.jpg" alt="">
+
+                    </div>
+                    <h5 class="text-2xl md:text-3xl font-medium mt-3">Aliments Disponibles pour vos chiens</h5>
+                    <p class="text-slate-500 text-lg mt-3 ">Nous pouvons vos fournir les croquettes pour vos chiens</p>
+                    <a href="#" class="text-center bg-indigo-700 text-indigo-400 py-2 rounded-lg font-semibold mt-4   hover:bg-blue-700 focus:scale-95 transition-all duration-200 ease-out">En savoir plus</a>
+
+
+                </div>
+
+            </div>
+
+            
+            <!-- the card 3-->
+            <div class="card">
+                <div class="p-5 flex flex-col">
+                    <div class="rounded-xl overflow-hidden">
+                        <img src="images/Dressage de chiens.jpg" alt="">
+
+                    </div>
+                    <h5 class="text-2xl md:text-3xl font-medium mt-3">Vaccination des chiens</h5>
+                    <p class="text-slate-500 text-lg mt-3 ">Nos chiens sont régulièrement vaccinés, Vaccination  </p>
+                    <a href="#" class="text-center bg-indigo-700 text-indigo-400 py-2 rounded-lg font-semibold mt-4  hover:bg-blue-700 focus:scale-95 transition-all duration-200 ease-out">En savoir plus</a>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    </section>
+
+
+    <!-- Contact -->
+
+    <section id="Contact" class="  bg-indigo-700">
+        <div class="container justify-self-center">
+            <div>
+
+                <div>
+                    <h1 class=" text-xl text-center text-slate-100 ">Contactez Nous</h1>
+
+
+                </div>
+
+            </div>
+
+            <form action="#" class="text-center ">
+
+                    <div>
+                        <div>
+                            <input type="text" class="  rounded-2 py-3 px-4 outline-none focus:bg-indigo-200"
+                                placeholder="Full name">
+                        </div>
+                        <br> 
+
+                        <div>
+                            <input type="email" class=" rounded-2 py-3 px-4 outline-none focus:bg-indigo-200"
+                                placeholder="Email address">
+                        </div>
+                        <br>
+
+                        <div>
+                            <input type="text" class=" rounded-2 py-3 px-4 outline-none focus:bg-indigo-200"
+                                placeholder="Date">
+                        </div>
+                        <br>
+
+                        <div>
+                            <input type="text" class=" rounded-2 py-3 px-4 outline-none focus:bg-indigo-200"
+                                placeholder="Time">
+                        </div>
+                        <br>
+
+                        <div>
+                            <textarea class="rounded-2 py-3 px-4 outline-none focus:bg-indigo-200"></textarea>
+                        </div> 
+
+                        <div class=" text-center">
+                            <a href="#" class="bg-red-300 hover:bg-red-400 text-red-800 rounded-r px-4">Send Message</a>
+                        </div>
+                    </div>
+
+            </form>
+
+        </div>
+    </section>
+
+
+    <!-- footer + newsletter ============================== -->
+    <div class="p-10 bg-indigo-900 text-indigo-400 flex justify-between">
+
+        <!--   left -->
+        <div class="md:w-1/2">
+
+            <h3 class="text-lg mb-2">S'inscrire pour des Journaux</h3>
+            <form class="flex">
+                <input type="email" class="w-full rounded-l py-3 px-4 outline-none focus:bg-indigo-200">
+                <button class="bg-red-300 hover:bg-red-400 text-red-800 rounded-r px-4">Join</button>
+            </form>
+
+        </div>
+
+        <!--   right -->
+        <div class="flex items-center">
+            Copyright &copy; Lorraine Sarah 2023 - Infinity
+        </div>
+
+        <div class="main">
+            <!-- Facebook Icon -->
+            <div class="icon fb">
+                <i class="fa-brands fa-facebook-f"></i>
+                <span>Facebook</span>
+            </div>
+    
+            <!-- Twitter Icon -->
+            <div class="icon twt">
+                <i class="fa-brands fa-twitter"></i>
+                <span>Twitter</span>
+            </div>
+    
+            <!-- instagram Icon -->
+            <div class="icon yt">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
